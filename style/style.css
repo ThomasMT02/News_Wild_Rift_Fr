@@ -70,3 +70,22 @@ ul {
     width: 100%;
     height: 100%;
 }
+
+/* =================(Partie de gauche)===============  */
+
+#content {
+    width: 80vw;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#content > h1 {
+    margin: 0 0 0 1.25rem;
+    font-size: 3.5rem;
+    margin: 1.25rem 0 0 1.25rem;
+}
+
+#subcontent {
+    margin: 1.25rem;
+}
