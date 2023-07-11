@@ -3,11 +3,28 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    color: white;
 }
 
 /* Style de header  */
 header {
     background-color: #323232;
     width: 25%;
+}
+
+/* Style par default de la liste */
+ul {
+    list-style: none;
+}
+
+
+.menu > a {
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+
+.m_focus > a{
+    color: white;
 }
