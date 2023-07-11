@@ -1,0 +1,28 @@
+.game {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 140px;
+    background-color: #C3C7E7;
+    border-radius: 10px;
+    margin: 20px 0 2px 0;
+}
+
+.response {
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttun {
+    outline: none;
+    background-color: white;
+    border: none;
+    width: 45%;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
