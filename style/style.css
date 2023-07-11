@@ -5,12 +5,22 @@ body {
     display: flex;
     flex-direction: row;
     color: white;
+    background-color: #2D3567;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* Style de header  */
 header {
     background-color: #323232;
-    width: 25%;
+    width: 35vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+header > h1 {
+    margin-left: 1.25rem;
+    font-size: 5rem;
 }
 
 /* Style par default de la liste */
