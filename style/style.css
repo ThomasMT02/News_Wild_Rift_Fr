@@ -91,3 +91,12 @@ ul {
 #subcontent {
     margin: 1.25rem;
 }
+
+.button_ok {
+    background-color: #47E97D !important;
+    transition: all .250s ease;
+}
+.button_non_ok {
+    background-color: #D41919 !important;
+    transition: all .250s ease;
+}

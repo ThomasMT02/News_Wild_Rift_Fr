@@ -1,14 +1,19 @@
 console.log("MT_Script 🦊");
 
-const response = document.querySelectorAll(".response");
-let button = document.querySelectorAll(".buttun");
+let button = document.querySelectorAll(".button");
 
-// console.log(response);
 
-for (i=1; i<button.length; i++) {
-    if (button.length = i) {
-        let button = button[i];
-    }
+for (i=0; i<button.length; i++) {
+    let buttons = button[i]
+    // console.log(button[i].innerHTML);
+
+    button[i].addEventListener("click", function() {
+        console.log(buttons.innerHTML);
+        if (buttons.id === "ok") {
+            buttons.classList.add("button_ok")
+        }
+        else {
+            buttons.classList.add("button_non_ok")
+        }
+    })
 }
-
-console.log(button);
