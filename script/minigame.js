@@ -7,7 +7,7 @@ let button = document.querySelectorAll(".buttun");
 
 for (i=1; i<button.length; i++) {
     if (button.length = i) {
-        button.classList.add("button"+i)
+        let button = button[i];
     }
 }
 
