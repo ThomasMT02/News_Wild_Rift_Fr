@@ -41,3 +41,10 @@
     border-radius: 10px;
     cursor: pointer;
 }
+
+.animate_disparition {
+    animation: disparition 1s ease-in-out forwards;
+}
+.display_none {
+    display: none !important;
+}

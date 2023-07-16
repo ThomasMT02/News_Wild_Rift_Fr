@@ -104,6 +104,11 @@ ul {
     to {opacity: 100;}
 }
 
+@keyframes disparition {
+    from {opacity: 100;}
+    to {opacity: 0;}
+}
+
 @media screen and (max-width: 934px) {
     body {
         background-color: black;
