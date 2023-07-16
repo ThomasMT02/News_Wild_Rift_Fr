@@ -23,6 +23,8 @@ header {
     flex-direction: column;
     justify-content: space-between;
     border-radius: 0 1.25rem 1.25rem 0;
+    z-index: 300;
+    
 }
 header > h1 {
     margin: 0 0 0 1.25rem;
@@ -45,6 +47,7 @@ ul {
     margin-bottom: 1.25rem;
     border-radius: 10px;
     font-size: 2.5rem;
+    
     
 }
 .m_focus {
