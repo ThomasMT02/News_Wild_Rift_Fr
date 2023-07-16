@@ -1,0 +1,29 @@
+body {
+    flex-direction: column !important;
+    overflow-x: hidden;
+}
+
+#content {
+    width: 75%;
+}
+#banner {
+    width: 100%;
+    height: 300px;
+}
+
+#subcontent > h1 {
+    font-size: 3.75rem;
+    margin-top: 0;
+}
+#subcontent > p {
+    font-size: 1.5rem;
+    margin: 0;
+    line-height: 1.5em;
+}
+
+.text_indentation {
+    text-indent: 1.25rem !important;
+}
+.saut_de_ligne {
+    margin-top: 20px !important;
+}

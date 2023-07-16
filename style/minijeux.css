@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .game {
     padding: 20px;
     display: flex;
@@ -14,7 +18,7 @@
     justify-content: space-between;
 }
 
-.buttun {
+.button {
     outline: none;
     background-color: white;
     border: none;
@@ -25,4 +29,13 @@
     font-weight: bold;
     text-align: center;
     cursor: pointer;
+}
+
+.button_ok {
+    background-color: #47E97D !important;
+    transition: all 0.250s ease;
+}
+.button_non_ok {
+    background-color: #D41919 !important;
+    transition: all 0.250s ease;
 }
