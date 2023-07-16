@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .game {
     padding: 20px;
     display: flex;

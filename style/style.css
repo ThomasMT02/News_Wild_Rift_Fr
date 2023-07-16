@@ -1,4 +1,8 @@
 /* Base du CSS */
+#mobile {
+    display: none;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -90,4 +94,36 @@ ul {
 
 #subcontent {
     margin: 1.25rem;
+}
+
+@keyframes apparition {
+    from {opacity: 0;}
+    to {opacity: 100;}
+}
+
+@media screen and (max-width: 934px) {
+    body {
+        background-color: black;
+    }
+    
+    header {
+        display: none;
+    }
+    #content {
+        display: none;
+    }
+
+    #mobile {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #mobile > img {
+        width: 200px;
+        animation: apparition 1s ease-in-out infinite alternate;
+    }
 }
