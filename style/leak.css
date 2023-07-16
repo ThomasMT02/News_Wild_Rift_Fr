@@ -1,0 +1,50 @@
+#subcontent > img {
+    width: 40%;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+#alerte_leaks {
+    position: fixed;
+    top: 0;
+    left: 24%;
+    background-color: rgba(255, 255, 255, 0.286);
+    backdrop-filter: blur(14px);
+    width: 80%;
+    height: 100%;
+}
+
+#background_leaks {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#background_leaks > h2 {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 3.125rem;
+}
+#background_leaks > p {
+    margin-top: 40px;
+    font-size: 20px;
+}
+#background_leaks > button {
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.animate_disparition {
+    animation: disparition 1s ease-in-out forwards;
+}
+.display_none {
+    display: none !important;
+}
