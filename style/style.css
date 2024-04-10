@@ -142,11 +142,13 @@ ul {
     #content {
         margin-left: 0;
         width: 100%;
+        margin-top: 20px;
     }
     
     #content > h1 {
         margin: 1.25rem;
         font-size: 2.5rem;
+        text-align: center;
     }
     
     #subcontent {
@@ -155,3 +157,4 @@ ul {
 
     
 }
+
