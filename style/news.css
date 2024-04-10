@@ -22,3 +22,20 @@ body {
     width: 100%;
     height: 100%;
 }
+
+@media (max-width: 768px) {
+    body {
+        overflow: scroll;
+    }
+    #subcontent {
+        position: absolute;
+    }
+    #content_news {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    #content_news > a {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
