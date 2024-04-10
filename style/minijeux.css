@@ -25,7 +25,7 @@ body {
     width: 45%;
     height: 60px;
     border-radius: 10px;
-    font-size: 35px;
+    font-size: 2.1875rem;
     font-weight: bold;
     text-align: center;
     cursor: pointer;
@@ -40,3 +40,24 @@ body {
     transition: all 0.250s ease;
 }
 
+@media screen and (max-width: 768px) {
+    .game {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .game > img {
+        width: 20%;
+    }
+    
+    .button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .button-ml {
+        margin-left: 10px !important;
+    }
+    .button-mr {
+        margin-right: 10px !important;
+    }
+}
